@@ -1,9 +1,9 @@
 #import "CleverTapReact.h"
 #import "CleverTapReactManager.h"
-#import <CleverTapSDK/CleverTap.h>
-#import <CleverTapSDK/CleverTap+Inbox.h>
-#import <CleverTapSDK/CleverTapEventDetail.h>
-#import <CleverTapSDK/CleverTapUTMDetail.h>
+#import "CleverTap.h"
+#import "CleverTap+Inbox.h"
+#import "CleverTapEventDetail.h"
+#import "CleverTapUTMDetail.h"
 
 #import <UserNotifications/UserNotifications.h>
 #import <CoreLocation/CoreLocation.h>
