@@ -1,10 +1,10 @@
 ## Installing CleverTap React Native
 
-1. `npm install --save clevertap-react-native`
-2. `react-native link clevertap-react-native` **or** [follow the manual linking instructions below](#manual-linking).
+1. `npm install --save react-native-clevertap`
+2. `react-native link react-native-clevertap` **or** [follow the manual linking instructions below](#manual-linking).
 
 ### iOS with podspec
-- Add `pod 'clevertap-react-native', :path => '../node_modules/clevertap-react-native'` as a dependency in your ios/Podfile. 
+- Add `pod 'react-native-clevertap', :path => '../node_modules/react-native-clevertap'` as a dependency in your ios/Podfile. 
 - Run `pod install` from your ios directory.
 
 ### iOS without podspec
@@ -34,7 +34,7 @@ dependencies {
 ### Manual Linking
 
 #### iOS:
-- Drag and Drop node_modules/clevertap-react-native/ios/CleverTapReact.xcodeproj into the Libraries folder of your project in XCode ([see Step 1 here](http://facebook.github.io/react-native/docs/linking-libraries-ios.html#manual-linking)).
+- Drag and Drop node_modules/react-native-clevertap/ios/CleverTapReact.xcodeproj into the Libraries folder of your project in XCode ([see Step 1 here](http://facebook.github.io/react-native/docs/linking-libraries-ios.html#manual-linking)).
 
 - Drag and Drop the libCleverTapReact.a product in CleverTapReact.xcodeproj into your project's target's "Link Binary With Libraries" section ([see Step 2 here](http://facebook.github.io/react-native/docs/linking-libraries-ios.html#manual-linking)).
 
