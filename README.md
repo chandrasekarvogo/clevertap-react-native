@@ -1,5 +1,5 @@
 # CleverTap React Native SDK
-[![npm version](https://badge.fury.io/js/clevertap-react-native.svg)](https://badge.fury.io/js/clevertap-react-native)
+[![npm version](https://badge.fury.io/js/clevertap-react-native.svg)](https://badge.fury.io/js/react-native-clevertap)
 
 ## Install and Integration
 1. `npm install --save clevertap-react-native`
