@@ -7,8 +7,17 @@
 #import <React/RCTLog.h>
 
 #import "CleverTap.h"
-#import "CleverTapSyncDelegate.h"
+#import "CleverTap+ABTesting.h"
+#import "CleverTap+Inbox.h"
+#import "CleverTap+SSLPinning.h"
+#import "CleverTapBuildInfo.h"
+#import "CleverTapEventDetail.h"
 #import "CleverTapInAppNotificationDelegate.h"
+#import "CleverTapInstanceConfig.h"
+#import "CleverTapJSInterface.h"
+#import "CleverTapSyncDelegate.h"
+#import "CleverTapTrackedViewController.h"
+#import "CleverTapUTMDetail.h"
 
 
 @interface CleverTapReactManager() <CleverTapSyncDelegate, CleverTapInAppNotificationDelegate> {

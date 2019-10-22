@@ -1,10 +1,18 @@
 #import "CleverTapReact.h"
 #import "CleverTapReactManager.h"
-#import "CleverTap.h"
-#import "CleverTap+Inbox.h"
-#import "CleverTapEventDetail.h"
-#import "CleverTapUTMDetail.h"
 
+#import "CleverTap.h"
+#import "CleverTap+ABTesting.h"
+#import "CleverTap+Inbox.h"
+#import "CleverTap+SSLPinning.h"
+#import "CleverTapBuildInfo.h"
+#import "CleverTapEventDetail.h"
+#import "CleverTapInAppNotificationDelegate.h"
+#import "CleverTapInstanceConfig.h"
+#import "CleverTapJSInterface.h"
+#import "CleverTapSyncDelegate.h"
+#import "CleverTapTrackedViewController.h"
+#import "CleverTapUTMDetail.h"
 #import <UserNotifications/UserNotifications.h>
 #import <CoreLocation/CoreLocation.h>
 
